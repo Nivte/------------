@@ -52,6 +52,11 @@ header {
   position: relative;
   height: 15vh;
 }
+@media (max-width: 768px) {
+  .navbar {
+    display: none;
+  }
+}
 
 .container-fluid {
   background-color: #f2cc0f;
@@ -75,10 +80,46 @@ header {
   margin-top: 20vh;
 }
 
+@media screen and (max-width: 768px) {
+  .p-5 {
+    margin-top: -15vh;
+  }
+}
+/*
+.sidenav {
+  background-color: pink;
+}
+
+@media screen and (min-width:767px){
+  .sidenav {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 767px) {
+  .btnt {
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  .btnt {
+    width: 6vw;
+    height: 6vh;
+    color: $blackcolor;
+    background-color: $purplecolor;
+  }
+}
+*/
 .carousel-item {
   height: 100vh;
 }
 
+@media screen and (max-width: 768px) {
+  .carousel-item {
+    margin-bottom: -50vh;
+  }
+}
 .carousel-caption {
   background-color: #f2cc0f;
   opacity: 0.8;
@@ -123,6 +164,11 @@ header {
   display: flex;
 }
 
+@media screen and (max-width: 768px) {
+  .containersponsors {
+    position: relative;
+  }
+}
 .cardback {
   height: 15vh;
   background-color: #f2f2f2;
@@ -144,12 +190,20 @@ header {
   background-color: #f2cc0f;
   transition: 1s;
   border: solid #0d0d0d;
-  width: 50%;
+  width: 80%;
   font-weight: 600;
-  margin-inline: 25%;
-  margin-block: 2vh;
+  margin-inline: 10%;
+  position: relative;
 }
 
+@media screen and (max-width: 768px) {
+  .btn {
+    height: 2vh;
+    font-size: 3px;
+    position: absolute;
+    top: 11vh;
+  }
+}
 .btn:hover {
   background-color: #9453a6;
   border: solid #0d0d0d;
