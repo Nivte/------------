@@ -37,6 +37,8 @@ h5 {
 h4:hover {
   color: $greencolor;
 }
+
+
 h2 {
   padding: 1vw;
 }
@@ -72,15 +74,21 @@ header {
   background-color: $whitecolor;
   height: 60vh;
   z-index: 4;
-
+ 
   & h1 {
     margin-top: 20vh;
   }
 }
+
 @media screen and (max-width: 768px) {
   .p-5 {
+    height: 80vh;
   }
+
 }
+  
+
+
 
 /*
 .sidenav {
@@ -179,6 +187,7 @@ header {
   height: $cardheight;
   background-color: $whitecolor;
   position: relative;
+ 
 }
 
 .card-img {
