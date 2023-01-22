@@ -111,6 +111,18 @@ header {
   }
 }
 */
+
+@media screen and (max-width: 768px) {
+  .carousel {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) {
+  .hidden {
+    display: none;
+  }
+}
+
 .carousel-item {
   height: 100vh;
 }
@@ -165,7 +177,6 @@ header {
   .containersponsors {
     position: relative;
   }
-
 }
 .cardback {
   height: $cardheight;
