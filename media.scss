@@ -67,6 +67,8 @@ header {
   position: absolute;
   top: 8vh;
   right: 2vw;
+  height: 35.1vh;
+  width: 15.6vw;
 }
 .p-5 {
   background-color: $whitecolor;
@@ -90,11 +92,11 @@ header {
   margin-bottom: 10vh;
 }
 
-img {
+.a {
   height: 25vh;
   width: 16vw;
 }
-img:hover {
+.a:hover {
   border: solid $purplecolor 0.8vh;
  
  }

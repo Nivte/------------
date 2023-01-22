@@ -62,6 +62,8 @@ header {
   position: absolute;
   top: 8vh;
   right: 2vw;
+  height: 35.1vh;
+  width: 15.6vw;
 }
 
 .p-5 {
@@ -87,12 +89,12 @@ header {
   margin-bottom: 10vh;
 }
 
-img {
+.a {
   height: 25vh;
   width: 16vw;
 }
 
-img:hover {
+.a:hover {
   border: solid #9453a6 0.8vh;
 }
 

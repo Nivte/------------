@@ -1,19 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Henny+Penny&family=Pattaya&family=Roboto:wght@100&display=swap");
 body {
-  color: #0d0d0d;
   background-color: #f2f2f2;
+  color: #0d0d0d;
   direction: rtl;
   font-family: "Roboto", sans-serif;
-  text-align: justify;
-  direction: rtl;
 }
 
 h1 {
-  padding: 3vh;
+  text-align: center;
   font-family: "pattaya";
   color: #0d0d0d;
   transition: 1s;
-  direction: rtl;
 }
 
 h1:hover {
@@ -33,18 +30,11 @@ h4:hover {
 
 h2 {
   padding: 1vw;
-  direction: rtl;
-}
-
-h3 {
-  direction: rtl;
-  color: #9453a6;
 }
 
 p {
   text-align: justify;
   padding: 3vw;
-  direction: rtl;
 }
 
 header {
@@ -74,12 +64,44 @@ header {
   background-color: #f2f2f2;
 }
 
-.colored {
-  background-color: #8cbf3f;
+.accordion-item {
+  background-color: #f2f2f2;
+  direction: rtl;
 }
 
-hr {
-  color: #8cbf3f;
+.accordion-header {
+  background-color: #f2f2f2;
+}
+
+.accordion-button {
+  background-color: #8cbf3f;
+  text-align: center;
+  direction: rtl;
+}
+
+.accordion-button:active {
+  background-color: #f2cc0f;
+}
+
+.accordion-button:focus {
+  background-color: #f2cc0f;
+}
+
+.btn {
+  color: #0d0d0d;
+  background-color: #f2cc0f;
+  transition: 1s;
+  border: solid #0d0d0d;
+  width: 100%;
+}
+
+.btn:hover {
+  background-color: #9453a6;
+  border: solid #0d0d0d;
+}
+
+.btn:active {
+  background-color: #f2f2f2;
 }
 
 .footer {
@@ -92,29 +114,4 @@ hr {
   left: 0vw;
   top: 12vh;
   color: #0d0d0d;
-}
-
-.mayor {
-  background-color: #f2cc0f;
-  align-items: center;
-  text-align: center;
-  direction: rtl;
-  border: solid #0d0d0d;
-  height: 90vh;
-  width: 70vw;
-  -webkit-margin-end: 15vw;
-          margin-inline-end: 15vw;
-}
-.mayor p {
-  padding: 2vh;
-}
-.mayor img {
-  height: 30vh;
-  width: 20vw;
-}
-
-@media screen and (max-width: 768px) {
-  .mayor {
-    height: 150vh;
-  }
-}/*# sourceMappingURL=about.css.map */
+}/*# sourceMappingURL=faq.css.map */
