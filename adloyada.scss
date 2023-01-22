@@ -54,12 +54,8 @@ header {
   font-weight: 600;
   position: relative;
   height: 15vh;
-  /*
-  @media (max-width: 768px) {
-    display: none;
-  }
 }
-*/
+
 
 .container-fluid {
   background-color: $yellowcolor;
@@ -84,7 +80,7 @@ header {
 }
 @media screen and (max-width: 768px) {
   .p-5 {
-    margin-top: -15vh;
+   
   }
 }
 /*

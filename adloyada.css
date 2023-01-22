@@ -52,11 +52,6 @@ header {
   position: relative;
   height: 15vh;
 }
-@media (max-width: 768px) {
-  .navbar {
-    display: none;
-  }
-}
 
 .container-fluid {
   background-color: #f2cc0f;
@@ -80,11 +75,6 @@ header {
   margin-top: 20vh;
 }
 
-@media screen and (max-width: 768px) {
-  .p-5 {
-    margin-top: -15vh;
-  }
-}
 /*
 .sidenav {
   background-color: pink;
