@@ -16,135 +16,91 @@
       integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="test.css">
+   
   </head>
   <body>
 
+
+    <nav class="navbar navbar-light bg-light">
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
+      data-mdb-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <i class="fas fa-bars"></i>
+    </button>
+  </div>
+</nav>
+<div class="collapse" id="navbarToggleExternalContent">
+  <div class="bg-light shadow-3 p-4">
+    <button class="btn btn-link btn-block border-bottom m-0">Link 1</button>
+    <button class="btn btn-link btn-block border-bottom m-0">Link 2</button>
+    <button class="btn btn-link btn-block m-0">Link 3</button>
+  </div>
+</div>
+
 <!--first start-->
 
-    <div class="accordion" id="accordionExample">
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingOne">
-            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-              מאיפה יוצאת התהלוכה?
-            </button>
-          </h2>
-          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-            <div class="accordion-body">
-              התהלוכה תצא מכיכר קוגל בחולון, מהיציאה הדרומית הפונה לכיוון העיר, תקיף את הכיכר פעם אחת ותחזור ליציאה הדרומית בואכה פנימה אל תוך העיר.
-                  </div>
-          </div>
-        </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingTwo">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-             איך מגיעים למקום? 
-                  </button>
-          </h2>
+  <h1>kljklkjhkjh</h1>
+
+  <!-- Sidenav -->
+<nav id="sidenav-1" class="sidenav" data-mdb-hidden="false">
+  <ul class="sidenav-menu">
+    <li class="sidenav-item">
+      <a class="sidenav-link">
+        <i class="far fa-smile fa-fw me-3"></i><span>Link 1</span></a>
+    </li>
+    <li class="sidenav-item">
+      <a class="sidenav-link"><i class="fas fa-grin fa-fw me-3"></i><span>Category 1</span></a>
+      <ul class="sidenav-collapse show">
+        <li class="sidenav-item">
+          <a class="sidenav-link">Link 2</a>
+        </li>
+        <li class="sidenav-item">
+          <a class="sidenav-link">Link 3</a>
+        </li>
+      </ul>
+    </li>
+    <li class="sidenav-item">
+      <a class="sidenav-link"><i class="fas fa-grin-wink fa-fw me-3"></i><span>Category
+          2</span></a>
+      <ul class="sidenav-collapse">
+        <li class="sidenav-item">
+          <a class="sidenav-link">Link 4</a>
+        </li>
+        <li class="sidenav-item">
+          <a class="sidenav-link">Link 5</a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+<!-- Sidenav -->
+
+<!-- Toggler -->
+<button data-mdb-toggle="sidenav" data-mdb-target="#sidenav-1" class="btn btn-primary"
+  aria-controls="#sidenav-1" aria-haspopup="true">
+  <i class="fas fa-bars"></i>
+</button>
+<!-- Toggler -->
 
 
 
-<!--first end-->
-
-
-
-
-
-          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-            <div class="accordion-body">
-             ניתן לכתוב "כיכר קוגל" באפליקציית וויז. כמו כן מצורפת מפת העיר בעמוד "צור קשר" באתר. כיכר קוגל ממוקמת בצפון העיר חולון ומובילה לשדרות קוגל מכיוון דרום, ומגרשי גולאסו חולון" מכיוון צפון.
-            </div>
-          </div>
-        </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingThree">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-             באילו תאריכים תתרחש התהלוכה?
-            </button>
-          </h2>
-          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-            <div class="accordion-body">
-              תהלוכת העדלאידע תתקיים בתאריך ה-6 במרץ 2023, ערב חג הפורים, וביום לאחריו (ה-7 במרץ).
-            </div>
-          </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="headingFour">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                באילו שעות תתרחש התהלוכה?
-              </button>
-            </h2>
-            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
-              <div class="accordion-body">
-               התהלוכה תצא בשעה 09:00 בבוקר, ותסתיים בשעה 15:00 בצהריים. בין השעות 12:00-13:00 בצהריים תתרחש הפסקה בה יוכלו המבקרים לנוח, לאכול ולהנות מהפנינג פורימי. בשעה 22:00 תתחדש העדלאידע למסיבת ערב מרהיבה ברחבי העיר חולון, עד השעה 01:00 בלילה.
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingFive">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                  לאילו גילאים התהלוכה מתאימה?
-                </button>
-              </h2>
-              <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-              הפנינג העדלאידע כולל שלל אטרקציות לכל המשפחה וכל הגילאים. בשעות הבוקר יערכו פעילויות לילדים לצד הפנינג ומזנוני מזון, ובשעות הלילה תיערך תהלוכה לילית אשר מיועדת לקהל בוגר יותר.
-                </div>
-              </div>
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="headingSix">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                   האם יהיו מזנוני אוכל לאורך התהלוכה?
-                  </button>
-                </h2>
-                <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
-                  <div class="accordion-body">
-                    <strong>כמובן!</strong> לכל אורל שעות ההפנינג, ילוו את התהלוכה עשרות מזנוני מזון, שימכרו: פיצה, המבורגר, גלידה, חטיפים ושתיה.
-                  </div>
-                </div>
-                  <div class="accordion-item">
-          <h2 class="accordion-header" id="headingSeven">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-           כמה אנשים צפויים להשתתף בתהלוכה?
-            </button>
-          </h2>
-          <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
-            <div class="accordion-body">
-             בתהלוכת העדלאידע משתתפים בכל שנה כ-20,000 איש בממוצע. גם השנה צפויים להשתתף רבבות אנשים באירוע.
-            </div>
-          </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="headingEight">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
-              מה צפוי להיות בתהלוכה? 
-              </button>
-            </h2>
-            <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#accordionExample">
-              <div class="accordion-body">
-               התהלוכה צפויה לכלול שלל פעילויות מרהיבות. לצד תהלוכת התחפושות המרכזית, תיערך תצוגת מסכות ייחודית, תחרות תחפושות, הפנינג והופעות בשעת ההפסקה, דוכנים לממכר מזון, ומצעד לילי מרהיב.
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingNine">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
-                  איך אפשר להירשם לתחרות התחפושות?
-                </button>
-              </h2>
-              <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                 על מנת להירשם לתחרות התחפושות, יש להגיע למקום לפני השעה 09:00, ולהירשם בדוכן ההפקה עם שם המשתתף ושם התחפושת.
-                </div>
-              </div>
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="headingTen">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
-                    האם יימכר אלכוהול בדוכני התהלוכה?
-                </h2>
-                <div id="collapseTen" class="accordion-collapse collapse" aria-labelledby="headingTen" data-bs-parent="#accordionExample">
-                  <div class="accordion-body">
-                    <strong>כן.</strong> במזנוני ההפנינג תימכר בירה, כמובן בהצגת תעודת זהות ולבני/בנות 18 ומעלה בלבד.
-                  </div>
-                </div>
-        </div>
-      </div>
+<nav class="navbar navbar-light bg-light">
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
+      data-mdb-target="#navbarToggleExternalContent2" aria-controls="navbarToggleExternalContent2"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <i class="fas fa-bars"></i>
+    </button>
+  </div>
+</nav>
+<div class="collapse" id="navbarToggleExternalContent2">
+  <div class="bg-light shadow-3 p-4">
+    <button class="btn btn-link btn-block border-bottom m-0">Link 1</button>
+    <button class="btn btn-link btn-block border-bottom m-0">Link 2</button>
+    <button class="btn btn-link btn-block m-0">Link 3</button>
+  </div>
+</div>
 
 
 

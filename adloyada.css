@@ -53,6 +53,20 @@ header {
   height: 15vh;
 }
 
+@media screen and (min-width: 768px) {
+  .halufi {
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  .halufi {
+    height: 10vh;
+    width: 14vw;
+    overflow: auto;
+    background-color: #8cbf3f;
+    border-radius: 30%;
+  }
+}
 .container-fluid {
   background-color: #f2cc0f;
   position: absolute;
