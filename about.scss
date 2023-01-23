@@ -62,6 +62,24 @@ header {
   height: 40vh;
   font-weight: 600;
 }
+@media screen and (min-width:768px) {
+  .halufi {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .halufi {
+      height: 10vh;
+      width: 14vw;
+      overflow: auto;
+      background-color: $greencolor;
+      border-radius: 30%;
+     margin-top: 30vh;
+     
+  }
+}
 
 .container-fluid {
   background-color: $yellowcolor;
