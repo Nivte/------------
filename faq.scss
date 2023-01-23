@@ -66,7 +66,7 @@ header {
       overflow: auto;
       background-color: $greencolor;
       border-radius: 30%;
-      margin-top: 30vh;
+      margin-top: 25vh;
   }
 }
 
@@ -82,6 +82,16 @@ header {
   top: 8vh;
   right: 2vw;
 }
+
+@media screen and (max-width:768px) {
+  .holonlogo {
+    position: absolute;
+    top: 3vh;
+    height: 20vh;
+    width: 40vw;
+  }
+}
+
 .p-5 {
   background-color: $whitecolor;
 }

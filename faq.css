@@ -60,7 +60,7 @@ header {
     overflow: auto;
     background-color: #8cbf3f;
     border-radius: 30%;
-    margin-top: 30vh;
+    margin-top: 25vh;
   }
 }
 .container-fluid {
@@ -75,6 +75,14 @@ header {
   right: 2vw;
 }
 
+@media screen and (max-width: 768px) {
+  .holonlogo {
+    position: absolute;
+    top: 3vh;
+    height: 20vh;
+    width: 40vw;
+  }
+}
 .p-5 {
   background-color: #f2f2f2;
 }
