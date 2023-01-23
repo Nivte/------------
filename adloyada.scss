@@ -226,6 +226,11 @@ header {
   background-color: $whitecolor;
   position: relative;
 }
+@media screen and (max-width:768px) {
+  .cardback {
+    height: 7vh
+  }
+}
 
 .card-img {
   height: $cardimgheight;
@@ -241,6 +246,11 @@ header {
   text-align: center;
   font-family: "roboto", sans-serif;
   font-weight: 600;
+}
+@media screen and (max-width: 768px) {
+  .card-title{
+  display: none;
+}
 }
 
 .btn {
@@ -259,7 +269,7 @@ header {
     height: 4vh;
     font-size: 0.7vh;
     position: absolute;
-    top: 10vh;
+    top: 2vh;
   }
 }
 .btn:hover {

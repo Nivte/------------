@@ -212,6 +212,11 @@ header {
   position: relative;
 }
 
+@media screen and (max-width: 768px) {
+  .cardback {
+    height: 7vh;
+  }
+}
 .card-img {
   height: 20vh;
 }
@@ -227,6 +232,11 @@ header {
   font-weight: 600;
 }
 
+@media screen and (max-width: 768px) {
+  .card-title {
+    display: none;
+  }
+}
 .btn {
   color: #0d0d0d;
   background-color: #f2cc0f;
@@ -243,7 +253,7 @@ header {
     height: 4vh;
     font-size: 0.7vh;
     position: absolute;
-    top: 10vh;
+    top: 2vh;
   }
 }
 .btn:hover {
