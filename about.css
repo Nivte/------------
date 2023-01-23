@@ -64,6 +64,10 @@ header {
     display: none;
   }
 }
+.thetoggler {
+  background-color: #8cbf3f;
+}
+
 @media screen and (max-width: 768px) {
   .halufi {
     height: 10vh;
