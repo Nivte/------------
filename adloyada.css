@@ -65,6 +65,8 @@ header {
     overflow: auto;
     background-color: #8cbf3f;
     border-radius: 30%;
+    border: solid #0d0d0d;
+    font-weight: 600;
   }
 }
 .container-fluid {
@@ -185,7 +187,7 @@ header {
 
 @media screen and (max-width: 768px) {
   .containersponsors {
-    position: relative;
+    margin-top: 8vh;
   }
 }
 .cardback {
@@ -198,6 +200,11 @@ header {
   height: 20vh;
 }
 
+@media screen and (max-width: 768px) {
+  .card-img {
+    height: 20vw;
+  }
+}
 .card-title {
   text-align: center;
   font-family: "roboto", sans-serif;

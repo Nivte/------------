@@ -34,6 +34,9 @@ h4,
 h5 {
   font-family: "henny-penny";
 }
+
+
+
 h4:hover {
   color: $greencolor;
 }
@@ -61,7 +64,7 @@ header {
 @media screen and (min-width:768px) {
   .halufi {
     display: none;
-  }
+      }
 }
 
 
@@ -72,7 +75,11 @@ header {
       overflow: auto;
       background-color: $greencolor;
       border-radius: 30%;
-  }
+      border: solid $blackcolor;
+      font-weight: 600;
+     
+
+        }
 }
 
 
@@ -196,11 +203,13 @@ header {
 .containersponsors {
   display: flex;
 }
-@media screen and (max-width: 768px) {
+
+@media screen and (max-width:768px) {
   .containersponsors {
-    position: relative;
+    margin-top: 8vh;
   }
-}
+} 
+
 .cardback {
   height: $cardheight;
   background-color: $whitecolor;
@@ -208,9 +217,20 @@ header {
  
 }
 
+
+
+
 .card-img {
   height: $cardimgheight;
 }
+
+@media screen and (max-width:768px) {
+  .card-img {
+    height: 20vw;
+  }
+} 
+  
+
 
 .card-title {
   text-align: center;

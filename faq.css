@@ -61,6 +61,8 @@ header {
     background-color: #8cbf3f;
     border-radius: 30%;
     margin-top: 25vh;
+    border: solid #0d0d0d;
+    font-weight: 600;
   }
 }
 .container-fluid {
