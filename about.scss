@@ -136,6 +136,7 @@ hr {
     height: 90vh;
     width: 70vw;
     margin-inline-end: 15vw;
+    margin-bottom: 10vh;
     
 
     & p {
@@ -143,18 +144,33 @@ hr {
     }
     
      
-    & img {
-        height: 30vh;
-        width: 20vw;
-        
-        
-      
-
-    }
+  
 }
+
+img {
+  height: 30vh;
+  width: 20vw;
+  
+  
+
+
+}
+
 
 @media screen and (max-width:768px) {
   .mayor {
-    height: 150vh;
+    height: 120vh;
+    width: 90vw;
+    margin-inline: 5vw;
+      }
+  
+}
+
+@media screen and (max-width:768px) {
+  .moti {
+    
+   width: 40vw;
+    
+    
   }
 }

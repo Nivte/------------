@@ -128,17 +128,26 @@ hr {
   width: 70vw;
   -webkit-margin-end: 15vw;
           margin-inline-end: 15vw;
+  margin-bottom: 10vh;
 }
 .mayor p {
   padding: 2vh;
 }
-.mayor img {
+
+img {
   height: 30vh;
   width: 20vw;
 }
 
 @media screen and (max-width: 768px) {
   .mayor {
-    height: 150vh;
+    height: 120vh;
+    width: 90vw;
+    margin-inline: 5vw;
+  }
+}
+@media screen and (max-width: 768px) {
+  .moti {
+    width: 40vw;
   }
 }/*# sourceMappingURL=about.css.map */
