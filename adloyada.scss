@@ -35,12 +35,9 @@ h5 {
   font-family: "henny-penny";
 }
 
-
-
 h4:hover {
   color: $greencolor;
 }
-
 
 h2 {
   padding: 1vw;
@@ -61,25 +58,39 @@ header {
   height: 15vh;
 }
 
-@media screen and (min-width:768px) {
+@media screen and (min-width: 768px) {
   .halufi {
     display: none;
-      }
+  }
 }
+
 
 
 @media screen and (max-width: 768px) {
   .halufi {
-      height: 10vh;
-      width: 14vw;
-      overflow: auto;
-      background-color: $greencolor;
-      border-radius: 30%;
-      border: solid $blackcolor;
-      font-weight: 600;
-     
+    height: 10vh;
+    width: 23vw;
+    overflow: auto;
+    background-color: $yellowcolor;
+    border-radius: 30%;
+    border: solid $blackcolor;
+    font-weight: 600;
+    margin-block:1vh;
+  }
+}
 
-        }
+
+@media screen and (max-width:768px) {
+
+.collapse {
+  position: absolute;
+  top: 7vh;
+  width: 35vw;
+     margin-right: -75vw;
+  opacity: 0.9;
+  display: flex;
+  flex-direction: column;
+}
 }
 
 
@@ -99,7 +110,7 @@ header {
   background-color: $whitecolor;
   height: 60vh;
   z-index: 4;
- 
+
   & h1 {
     margin-top: 20vh;
   }
@@ -109,11 +120,7 @@ header {
   .p-5 {
     height: 80vh;
   }
-
 }
-  
-
-
 
 /*
 .sidenav {
@@ -204,33 +211,27 @@ header {
   display: flex;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width: 768px) {
   .containersponsors {
     margin-top: 8vh;
   }
-} 
+}
 
 .cardback {
   height: $cardheight;
   background-color: $whitecolor;
   position: relative;
- 
 }
-
-
-
 
 .card-img {
   height: $cardimgheight;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width: 768px) {
   .card-img {
     height: 20vw;
   }
-} 
-  
-
+}
 
 .card-title {
   text-align: center;

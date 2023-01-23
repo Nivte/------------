@@ -61,12 +61,24 @@ header {
 @media screen and (max-width: 768px) {
   .halufi {
     height: 10vh;
-    width: 14vw;
+    width: 23vw;
     overflow: auto;
-    background-color: #8cbf3f;
+    background-color: #f2cc0f;
     border-radius: 30%;
     border: solid #0d0d0d;
     font-weight: 600;
+    margin-block: 1vh;
+  }
+}
+@media screen and (max-width: 768px) {
+  .collapse {
+    position: absolute;
+    top: 7vh;
+    width: 35vw;
+    margin-right: -75vw;
+    opacity: 0.9;
+    display: flex;
+    flex-direction: column;
   }
 }
 .container-fluid {

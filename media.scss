@@ -67,15 +67,29 @@ header {
 
 @media screen and (max-width: 768px) {
   .halufi {
-      height: 10vh;
-      width: 15vw;
-      overflow: auto;
-      background-color: $greencolor;
-      border-radius: 30%;
-      margin-top: 25vh;
-      border: solid $blackcolor;
-      font-weight: 600;
-     
+    height: 10vh;
+    width: 23vw;
+    overflow: auto;
+    background-color: $yellowcolor;
+    border-radius: 30%;
+    border: solid $blackcolor;
+    font-weight: 600;
+    margin-block:1vh;
+    margin-inline-start: -5vw ;
+  }
+}
+
+
+@media screen and (max-width:768px) {
+
+.collapse {
+  position: absolute;
+  top: 7vh;
+  width: 35vw;
+     margin-right: -75vw;
+  opacity: 0.9;
+  display: flex;
+  flex-direction: column;
   }
 }
 
