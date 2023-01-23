@@ -56,7 +56,7 @@ header {
 @media screen and (max-width: 768px) {
   .halufi {
     height: 10vh;
-    width: 14vw;
+    width: 15vw;
     overflow: auto;
     background-color: #8cbf3f;
     border-radius: 30%;
