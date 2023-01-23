@@ -24,6 +24,7 @@ h1 {
   color: $blackcolor;
   transition: 1s;
   direction: rtl;
+  text-align: center;
 }
 h1:hover {
   color: $purplecolor;
@@ -41,6 +42,7 @@ h4:hover {
 h2 {
   padding: 1vw;
   direction: rtl;
+  
 }
 h3 {
     direction: rtl;
