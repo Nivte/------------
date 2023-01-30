@@ -166,6 +166,7 @@ form {
        margin-top: 120vh;
        width: 70vw;
        margin-inline: 15vw;
+       height: 70vh;
         
   }
 }
@@ -173,7 +174,37 @@ form {
 
 input {
 background-color: $whitecolor;
+text-align: center;
 }
+
+@media screen and (max-width:768px) {
+
+.labfirst {
+  display: none;
+}
+}
+
+@media screen and (max-width:768px) {
+
+  .labsur {
+    display: none;
+  }
+  }
+
+  @media screen and (max-width:768px) {
+
+    .labmail {
+      display: none;
+    }
+    }
+
+    @media screen and (max-width:768px) {
+
+      .labmes {
+        display: none;
+      }
+      }
+
 
 textarea {
   text-align: center;
